@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: e7+sw6DfINwEnlcHw3c82KyYlGcagoCwztke7S0J3+flBT9l/syC6JuJB5Z7MdaS4/j57PcrK5/SEuG9Ro8jr5E3MHe+FO05QExGHQq6iY0xkjLDR0wDOB9x1P3atc10JTQ+OKN7IIMau8yKQphpBD/Dv5AGzLduhCQ0Uk53dgoePn2BW1zZGnMC5Px8poWad4a5l3rK3uCGJ7UC97yRVtfqg8o3jpxLHIWaj7Hxd5OK2Z+84kNu8VdwKtkYnYKJlB3wUvRs5dSzxQO45uTj84DrdlRUQT1/1n4dJbXvur5WeCsBfkbMdGiJ9KfeksVoroHjw5KloBMekCAhqnam/zYRRnZBn7/bNNDSUC+UNPRMJG+jYgKuls5Oqr9tBKmzIMRPXnUMhVTQVCRVPYTeXdrtopKRtprUN4AcHD3uJLg6JgIi2XBx8qTlDXxU6Bsq9rYnj2tsNBT1Ti5p0/ih3enATXpzQEr5+ZG8MPAK4xtlmToAIJq7cJmX+rH8wwQj6jlJO7CTs0UaYuhyc+AxCroUHw1V3NhRxCw1Y8vY1oJGgRvqudx0j2nDE73/tbLI8uvZ3Ewpq9gkmTFt++G0f/T6Wm2Su+abROFOf0yAPfrQZDctbYFfLDjgjhT+RWQSmRXq4k9AK17jcH95STZK6l81qwKLWINivX/HMAGGrOM=
+  app: guarded-scrubland-11710
+  on:
+    repo: dhoel/node-shopping-list-integration-tests
